@@ -1,0 +1,48 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+ENV/
+env/
+.venv/
+.env.bak
+
+# Ignore other unnecessary files
+.DS_Store
+docker-compose.override.yml
+.dockerignore
+
+# Ignore log files
+*.log
+
+# Ignore local environment files
+.env
+.env.*
+
+# Ignore test directories and files
+/tests/
+*.pytest_cache/
+junit.xml
+
+# Ignore IDE and editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Ignore compiled files
+*.o
+*.a
+*.out
+*.class
+
+# Ignore OS generated files
+Thumbs.db
+desktop.ini
+
+# Uploads
+uploads/
+geo/*.mmdb
+geo/*.BIN
